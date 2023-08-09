@@ -1,0 +1,29 @@
+Specification: To write a C# console application that prints "Hello, World!" to the console, follow these steps:
+
+1. Open a text editor and create a new file named "HelloWorld.cs", or another name of your choosing but it must have the .cs file extension.
+
+2. Type the following code into your text editor:
+
+```csharp
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Hello, World!");
+    }
+}
+```
+
+3. Save the file and close your text editor.
+
+4. Open your system's command prompt.
+
+5. Navigate to the directory where you saved "HelloWorld.cs".
+
+6. To compile your new program, type `csc HelloWorld.cs` at the command prompt and press enter. If the code has no errors, this will create an executable file in the same directory.
+
+7. To run your program, type `HelloWorld` and press enter.
+
+8. The message "Hello, World!" will be displayed in the command prompt window.
