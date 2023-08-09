@@ -1,0 +1,48 @@
+To create a simple "Hello, World!" console application in C#, follow the steps below:
+
+```csharp
+// 1. First, open your text editor and create a new file.
+// 2. Save it as HelloWorld.cs (or whatever name you wish, but ensure it has a .cs extension).
+
+// 3. Write the following program code in the file:
+
+using System;
+
+namespace HelloWorld 
+{
+    class Program 
+    {
+        static void Main(string[] args) 
+        {
+            Console.WriteLine("Hello, World!");
+            Console.ReadKey();
+        }
+    }
+}
+   
+// Explanation of the code:
+
+// "using System;" is a directive to the compiler to use the System namespace
+
+// "namespace HelloWorld" creates a namespace for the application
+
+// "class Program" declares a class, which is a container for functions and data
+
+// "static void Main(string[] args)" is the Main method, the entry point of the application
+
+// "Console.WriteLine("Hello, World!");" is a method that prints the string "Hello, World!" to the console
+
+// "Console.ReadKey();" is a method that makes the program wait for a key press before it closes. This line is optional.
+
+// 4. Save your code. 
+
+// 5. To compile and run this program, open your command prompt, navigate to the directory containing your file and type:
+
+// csc HelloWorld.cs
+// This will create a HelloWorld.exe executable file.
+
+// 6. Lastly, to run this application, type the following command:
+// HelloWorld.exe
+// You will see the output: Hello, World!
+```
+Please be aware that this requires you to have the .NET Core or .NET Framework installed. If you do not have the .NET Core or .NET Framework, you can download it from Microsoft's official .NET website.
